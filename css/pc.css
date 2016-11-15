@@ -1,0 +1,843 @@
+@charset'utf-8';
+
+body{
+font-family: 微軟正黑體;
+
+}
+a{
+	font-size: 2em;
+	font-weight:bold;
+	 text-decoration:none;
+
+}
+.titlepr{
+	background-color: gray;
+	color: white;
+}
+.anon{
+	  text-decoration:none;
+}
+
+.edcimg{
+	margin-top: 50px;
+}
+.ssdcz{
+	width: 40%;
+	float: left;
+	margin-right: 20px;
+}
+.totop{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	color: white;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	position: fixed;
+	bottom: 0px;
+	right: 20px;	
+	text-decoration:none;
+	z-index: 9999999;
+}
+
+
+.totop:hover .tt11
+{	color: white;
+	display: block;
+	text-decoration: none;
+}
+.tt11:visited {
+		
+	text-decoration: none;
+}
+
+.fontfcn{
+	font-size: 3em;"
+	}
+.printro{
+	width:50%;
+	float: left;
+}
+.slidess{
+	margin-top: 50px;
+	height:50vh;
+}
+	
+
+}
+.ddddright{
+	float: right;
+	width: 100%;
+
+	
+}
+.FCNimg21{
+	height: 30vh;
+	background-image: url(../img/FCN.jpg);	
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+.midblock{
+height:100px;
+width:100%;
+}
+.txmid{
+	width:100%;
+	height:100px;
+	float:left;
+}
+
+.prpa{
+color: black;
+
+display: none;
+}
+#aa1:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#aa2:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#aa3:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#aa4:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#aa5:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#aa6:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq1:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq2:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq3:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq4:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq5:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq6:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq7:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq10:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq11:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq12:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq13:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq14:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq15:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#qq16:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq17:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq19:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq20:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq21:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq22:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq23:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq25:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq26:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq27:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq28:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq29:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq30:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+#qq31:hover .prpa{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+#aa1{
+	padding-top: 150px;
+	padding-left: 100px;
+	border-style:groove;
+}
+#aa2{
+	padding-top: 150px;
+	padding-left: 100px;
+	border-style:groove;
+}
+#aa3{
+	padding-top: 150px;
+	padding-left: 80px;
+	border-style:groove;
+}
+#aa4{
+	padding-top: 150px;
+	padding-left: 100px;
+	border-style:groove;
+}
+#aa5{
+	padding-top: 150px;
+	padding-left: 100px;
+	border-style:groove;
+}
+#aa6{
+	padding-top: 150px;
+	padding-left: 80px;
+	border-style:groove;
+}
+
+.cc1{	
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pa1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.cc2{	
+		background-size: cover;
+		background-image: url(../img/02Emulsion/b-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.cc3{	
+		background-size: cover;
+		background-image: url(../img/03AcrylicEmulsion/ta-bottle-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.cc4{	
+		background-size: cover;
+		background-image: url(../img/04Creambottles/tv-1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.cc5{	
+		background-size: cover;
+		background-image: url(../img/05other/p-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.cc6{	
+		background-size: cover;
+		background-image: url(../img/06spring/0.5t-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+}
+.ccdex{
+	height: 300px;
+}
+#qq1{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pa/pa1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+
+}
+#qq2{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pb/pb1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq3{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pbs/pbs-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq4{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pcwm/pcwm-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq5{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pg/pg1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq6{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/ppa/ppa-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq7{
+		background-size: cover;
+		background-image: url(../img/01Vacuumbottles/pq/pq-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq10{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/B/b-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq11{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/EX/ex-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq12{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/G/g-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq13{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/HU/hu-b.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq14{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/MLB/mlb-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq15{
+		background-size: cover;
+		background-image: url(../img/02Emulsion/NQ/nq-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq16{
+		background-size: cover;
+		background-image: url(../img/03AcrylicEmulsion/TA/ta-bottle-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq17{
+		background-size: cover;
+		background-image: url(../img/03AcrylicEmulsion/TC/tc-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq19{
+		background-size: cover;
+		background-image: url(../img/04Creambottles/DM/dm-2.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq20{
+		background-size: cover;
+		background-image: url(../img/04Creambottles/MO/mo-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq21{
+		background-size: cover;
+		background-image: url(../img/04Creambottles/TA/ta-cream-jar-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq22{
+		background-size: cover;
+		background-image: url(../img/04Creambottles/TR/tr2-1.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq23{
+		background-size: cover;
+		background-image: url(../img/04Creambottles/TV/tv-1-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq25{
+		background-size: cover;
+		background-image: url(../img/05other/A-3/a3-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq26{
+		background-size: cover;
+		background-image: url(../img/05other/NP/np-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq27{
+		background-size: cover;
+		background-image: url(../img/05other/P/p-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq28{
+		background-size: cover;
+		background-image: url(../img/06spring/T24410/0.5t-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq29{
+		background-size: cover;
+		background-image: url(../img/06spring/TL24410/0.5tl-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq30{
+		background-size: cover;
+		background-image: url(../img/06spring/BodyWash/shampoo-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+#qq31{
+		background-size: cover;
+		background-image: url(../img/06spring/makeupremover/make-up-s.jpg);
+		background-repeat:no-repeat;
+		height: 300px;
+		border-style: groove;
+		padding-top: 150px;
+		padding-left: 80px;
+}
+
+
+
+.cc1:hover {
+	background-image: url(../img/01Vacuumbottles/pa1-s2.jpg);
+}
+.cc2:hover{
+	background-image: url(../img/02Emulsion/b-s2.jpg);
+}
+.cc3:hover{
+	background-image: url(../img/03AcrylicEmulsion/ta-bottle2-s.jpg);
+}
+.cc4:hover{
+	background-image: url(../img/04Creambottles/tv-1-s2.jpg);
+}
+.cc5:hover{
+	background-image: url(../img/05other/p-s2.jpg);
+}
+.cc6:hover{
+	background-image: url(../img/06spring/0.5t-s2.jpg);
+}
+#qq1:hover{
+	background-image: url(../img/01Vacuumbottles/pa/pa1-s2.jpg)
+}
+#qq2:hover{
+	background-image: url(../img/01Vacuumbottles/pb/pb1-s2.jpg)
+}
+#qq3:hover{
+	background-image: url(../img/01Vacuumbottles/pbs/pbs-s2.jpg)
+}
+#qq4:hover{
+	background-image: url(../img/01Vacuumbottles/pcwm/pcwm-s2.jpg)
+}
+#qq5:hover{
+	background-image: url(../img/01Vacuumbottles/pg/pg1-s2.jpg)
+}
+#qq6:hover{
+	background-image: url(../img/01Vacuumbottles/ppa/ppa-s2.jpg)
+}
+#qq7:hover{
+	background-image: url(../img/01Vacuumbottles/pq/pq-s2.jpg)
+}
+#qq10:hover{
+	background-image: url(../img/02Emulsion/B/b-s2.jpg)
+}
+#qq11:hover{
+	background-image: url(../img/02Emulsion/EX/ex-s2.jpg)
+}
+#qq12:hover{
+	background-image: url(../img/02Emulsion/G/g-s2.jpg)
+}
+#qq13:hover{		
+	background-image: url(../img/02Emulsion/HU/hu-b2.jpg)
+}
+#qq14:hover{
+	background-image: url(../img/02Emulsion/MLB/pa1-s2.jpg)
+}
+#qq15:hover{
+	background-image: url(../img/02Emulsion/NQ/nq-s2.jpg)
+}
+#qq16:hover{
+	background-image: url(../img/03AcrylicEmulsion/TA/ta-bottle-s2.jpg)
+}
+#qq17:hover{
+	background-image: url(../img/03AcrylicEmulsion/TC/tc-s2.jpg)
+}
+#qq19:hover{
+	background-image: url(../img/04Creambottles/DM/dm-22.jpg)
+}
+#qq20:hover{
+	background-image: url(../img/04Creambottles/MO/mo-s2.jpg)
+}
+#qq21:hover{
+	background-image: url(../img/04Creambottles/TA/ta-cream-jar-s2.jpg)
+}
+#qq22:hover{
+	background-image: url(../img/04Creambottles/TR/tr2-12.jpg)
+}
+#qq23:hover{
+	background-image: url(../img/04Creambottles/TV/tv-1-s2.jpg)
+}
+#qq25:hover{
+	background-image: url(../img/05other/A-3/a3-s2.jpg)
+}
+#qq26:hover{
+	background-image: url(../img/05other/NP/np-s2.jpg)
+}
+#qq27:hover{
+	background-image: url(../img/05other/P/p-s2.jpg)
+}
+#qq28:hover{
+	background-image: url(../img/06spring/T24410/0.5t-s2.jpg)
+}
+
+#qq29:hover{
+	background-image: url(../img/06spring/TL24410/0.5tl-s2.jpg)
+}
+
+#qq30:hover{
+	background-image: url(../img/06spring/BodyWash/shampoo-s2.jpg)
+}
+
+#qq31:hover{
+	background-image: url(../img/06spring/makeupremover/make-up-s2.jpg)
+}
+
+
+
+.Contacttx{
+	font-size: 1.5em;
+	margin-top: 80px;
+}
+#hh1{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+#hh2{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+#hh3{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+#hh4{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+#hh5{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+#hh6{
+	background-color: gray;
+	color: white;
+	height: 40px;
+}
+.prdda{
+	font-family: 微軟正黑體;
+	font-size: 2em;
+	text-align: center;
+
+}
+.textssssize{
+	background-color: gray;
+	color: white;
+	height: 40px;
+
+	
+}
+.tablea{
+	font-size: 1em;
+	text-decoration: none;
+	font-color: black;
+
+}
+.tablea:hover{
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+}
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.tg td{
+	font-family:Arial, 
+	sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg th{
+	font-family:Arial,
+	 sans-serif;
+	 font-size:14px;
+	 font-weight:normal;
+	 padding:10px 5px;
+	 border-style:solid;
+	 border-width:1px;
+	 overflow:hidden;
+	 word-break:normal;
+	}
+.tg .tg-2bn0{
+	font-size:26px;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-tns0{
+	font-weight:bold;
+	font-size:32px;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-baqh{
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-m1si{
+	font-size:26px;
+	background-color:#ffcc67;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-rma7{
+	font-size:26px;
+	background-color:#009901;
+	color:#ffffff;
+	text-align:center;
+	vertical-align:top
+}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-k9im{font-size:26px;background-color:#009901;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-pub1{font-size:26px;background-color:#ffffff;text-align:center;vertical-align:top}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xayj{font-size:20px;background-color:#ffcc67;text-align:center}
+.tg .tg-ysdk{font-size:20px;background-color:#009901;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-ij9o{font-size:20px;background-color:#ffcc67;text-align:center;vertical-align:top}
+.tg .tg-bzci{font-size:20px;text-align:center;vertical-align:top}
+.tg .tg-4cnz{font-size:20px;background-color:#009901;color:#ffffff;text-align:center}
+.tg .tg-ozhh{font-weight:bold;font-size:26px;text-align:center;vertical-align:top}
+.tg .tg-4kyz{font-size:20px;text-align:center}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-07gk{font-weight:bold;font-size:26px;background-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-wrg0{font-size:22px;text-align:center;vertical-align:top}
+.tg .tg-jpfy{font-size:22px;background-color:#ffcc67;text-align:center;vertical-align:top}
+.tg .tg-rbd8{font-size:22px;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-p3a1{font-size:26px;background-color:#009901;color:#ffffff;text-align:center}
+.tg .tg-kph1{font-size:26px;background-color:#ffcc67;text-align:center}
+.tg .tg-vpsr{font-size:26px;text-align:center}
+.tg .tg-wr86{font-size:22px;background-color:#009901;color:#ffffff;text-align:center;vertical-align:top}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xibm{font-weight:bold;font-size:18px;background-color:#c0c0c0;vertical-align:top}
+.tg .tg-z1sh{font-size:18px;background-color:#c0c0c0;vertical-align:top}
+.tg .tg-i6eq{background-color:#ffccc9;vertical-align:top}
+.tg .tg-12z7{font-weight:bold;font-size:18px;background-color:#ffccc9;vertical-align:top}
+.tg .tg-kztj{font-weight:bold;font-size:18px;background-color:#ffffff;vertical-align:top}
+.tg .tg-r3nj{font-weight:bold;font-size:18px;background-color:#9aff99;vertical-align:top}
+.tg .tg-1mx7{font-weight:bold;font-size:18px;background-color:#ffffc7;vertical-align:top}
+.tg .tg-3we0{background-color:#ffffff;vertical-align:top}
+.tg .tg-y53l{font-weight:bold;font-size:18px;background-color:#ffccc9;color:#000000;vertical-align:top}
+.tg .tg-1fj2{font-size:18px;background-color:#ffccc9;vertical-align:top}
+.tg .tg-kjho{background-color:#ffffc7;vertical-align:top}
+.tg .tg-xumr{font-weight:bold;font-size:18px;background-color:#ffce93;vertical-align:top}
+.tg .tg-z18w{font-weight:bold;font-size:18px;background-color:#96fffb;vertical-align:top}
+.tg .tg-hxtd{background-color:#96fffb;vertical-align:top}
+.tg .tg-le8v{background-color:#c0c0c0;vertical-align:top}

@@ -1,32 +1,301 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="css/RWD.css">
-</head>
-	<body>
-		<div id="all">
-			<div id="d1"></div>
-			<ul>
-				<li> <a href="#a1">A</a></li>
-				<li><a href="#b1">B</a></li>
-				<li><a href="#c1">C</a></li>
-			</ul>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>楓荃有限公司</title>  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pc.css">
+    
+<style>
 
-			<div id="nav"></div>
-			
-			<div id="a1"><div id="a2">
-				<button id="but"  onclick="location.href='http://www.google.com.tw'">Google</button>
-			</div></div>
-			<div id="b1"><div id="b2" >
-				
-				<button id="but"  onclick="location.href='http://www.google.com.tw'">Google</button>
-			</div></div>
-			<div id="c1"><div id="c2" >
-				<button id="but"  onclick="location.href='http://www.google.com.tw'">Google</button>
-			</div></div>
-		</div>
-	</body>
+
+    @media screen and (max-width: 991px) {
+       .totop{
+   position: fixed;
+   left: 0px;
+  }
+      .Contacttx{
+        font-size: 1em;
+      }
+      .FCNimg21{
+        height:60px;  
+        width: 120px;
+        margin-top: 40px;
+
+      }
+      .ddddright{
+      
+   
+      }
+      #carousel-example-generic{
+        display: none;
+      }
+      #hh1{
+        display: none;
+      }
+      #hh2{
+        display: none;
+      }
+      #hh3{
+        display: none;
+      }
+      #hh4{
+        display: none;
+      }
+      #hh5{
+        display: none;
+      }
+      #hh6{
+        display: none;
+      }
+     .prpa{
+      font-size: 3em;
+      display: block;
+     }
+
+     .midblock{
+     
+      display: none;
+    }
+    .txmid{
+        display: none;
+    }
+    p{
+      display: none;
+    }
+
+    }
+    @media screen and (min-width: 992px) and (max-width: 1199px){
+      .FCNimg21{
+        height:200px;
+        width: 400px;
+        margin-top: 50px;
+      }
+
+  .midblock{
+     
+      display: none;
+    }
+    .txmid{
+        display: none;
+    }
+   
+    }
+    @media screen and (min-width: 1200px) {
+    .cc{
+     
+      margin-left: 60px;
+
+    }
+     .FCNimg21{
+        margin-top: 50px;
+      }
+    }
+}
+
+</style>
+  </head>
+  <body class="container">
+  <div class="totop"><a href="#top1" class="tt11">TOP</a></div>
+    
+<!-- 標題導覽列開始 -->
+<nav class="navbar navbar-default" role="navigation" >
+  <div class="container-fluid"> 
+  <div class="navbar-header">
+    <a class="navbar-brand fontfcn" href="20161104.html" id="top1">FCN</a>
+  </div>
+  <div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#FCMICO">公司介紹</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          產品介紹
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="Vacuumbottles.html">真空瓶</a></li>
+          <li class="divider"></li>
+          <li><a href="Emulsion.html">乳液瓶</a></li>
+          <li class="divider"></li>
+          <li><a href="AcrylicEmulsion.html">壓克力乳液瓶</a></li>
+          <li class="divider"></li>
+          <li><a href="Creambottles.html">霜瓶</a></li>
+          <li class="divider"></li>
+          <li><a href="other.html">其他</a></li>
+            <li class="divider"></li>
+          <li><a href="spring.html">外置彈簧壓頭</a></li>
+        </ul>
+        <li><a href="ProductOverview.html">產品地圖</a></li>
+      <li><a href="#Contact information">聯絡我們</a></li>
+      
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+</nav><!-- 標題導覽列結束 -->
+
+
+<!-- 首頁輪播開始 -->
+  <div id="carousel-example-generic" class="carousel slide slidess" data-ride="carousel topimg col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/bg1.jpg"  alt="bg1">
+    </div>
+
+    <div class="item">
+      <img src="img/bg2.jpg" alt="bg2">
+    </div>
+
+    <div class="item">
+      <img src="img/bg3.jpg" alt="bg3">
+     </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- 首頁輪播結束 -->
+
+<div class="titlepr" id="FCMICO"><h1>關於楓荃</h1></div>
+<!-- 首頁簡介開始 -->
+<nav class="printro col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div ></div>
+    <div >
+         
+         <h2>PRO級的代工製造保養品包材、容器與真空壓頭</h2>
+         <p class="text-left">
+           超過20年專業生產製造真空壓頭，PRO級的代工製造保養品包材、容器與壓頭，楓荃有限公司已經是業界中的領導者。從包材設計、模具設計、製造生產、乳液壓頭、真空瓶器、各種顏色塗層、特殊印刷到準時交貨，我們的團隊忠於全力支援客戶、顧客滿意與服務。 我們突出的『彈簧外置』壓頭擁有專利設計權，強調『免金屬』流道，杜絕彈簧與鋼珠對保養品內料的汙染與鏽化。超強的吸力可以輕易押出高黏稠度達7萬級CPS的產品內料，如隔離霜、粉底霜或者比防曬乳更黏稠的內料。
+           我們熱愛化粧品包材的製造，甚至全心投入達成顧客委任的使命，引導每位顧客從事客制化的包材或是利用我方現有的容器來迎合他們的需求，我們保證品質滿意。 精進優良的設備製造高品質容器，提供具競爭性的價格、根據客戶的需要量身訂製服務，為你我創造雙贏的商機。FCN就是你保養品包材的解決之道!
+         </p>
+    </div>
+</nav>
+<div class="ddddright col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<div class="FCNimg21"></div>
+</div>
+<!-- 首頁簡介結束 -->
+
+
+<div style="clear:both"></div>
+<div class="midblock"></div>
+
+
+<!-- 產品介紹開始 -->
+
+<div class="titlepr"><h1>產品介紹</h1></div>
+<div class="container-fulled" id="product">
+
+        <div class="row">
+
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc1" id="aa1" >
+          <div ><a href="Vacuumbottles.html"class="prpa">真空瓶</a></div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc2"id="aa2"  >
+            <div ><a href="Emulsion.html" class="prpa">乳液瓶</a></div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc3" id="aa3" >
+         <div ><a href="AcrylicEmulsion.html" class="prpa">壓克力乳液瓶</a></div>
+          </div>
+            <!-- 產品標題開始 -->
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 " id="hh1" >
+          <div class="prdda">真空瓶</div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 "id="hh2"  >
+            <div class="prdda">乳液瓶</div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 " id="hh3" >
+         <div class="prdda">壓克力乳液瓶</div>
+        </div>
+        <!-- 產品標題結束 -->
+       
+        
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc4" id="aa4" >
+          <div ><a href="Creambottles.html" class="prpa">霜瓶</a></div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc5" id="aa5" >
+           <div ><a href="other.html" class="prpa">其他</a></div> 
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 cc6" id="aa6" >
+          <div ><a href="spring.html" class="prpa">上置彈簧壓頭</a></div>
+          </div>
+         
+
+          
+          <!-- 產品標題開始 -->
+
+           <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 " id="hh4" >
+          <div class="prdda">霜瓶</div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 "id="hh5"  >
+            <div class="prdda">其他</div>
+          </div>
+          <div class="cc col-lg-3 col-md-4 col-sm-6 col-xs-12 " id="hh6" >
+         <div class="prdda">上置彈簧壓頭</div>
+        </div>
+      
+        <!-- 產品標題結束 -->
+
+        </div>
+ </div>
+
+<div class="midblock"></div>
+
+
+<!-- 產品介紹結束 -->
+
+
+
+
+  
+<!-- 聯絡我們開始 -->
+<div class="titlepr"id="Contact information"><h1>聯絡我們介紹</h1></div>
+<div class="container" >
+<div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.7201071153627!2d120.62850252513753!3d24.11133650417797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693c22f2d62be7%3A0x8b84048c6ccef80!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5rC45pil5p2x5LiJ6LevMeiZnw!5e0!3m2!1szh-TW!2stw!4v1478668465354" width="400" height="300" frameborder="0" style="border:0" allowfullscreen;></iframe>
+          </div>
+
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 Contacttx" >
+                    <address>
+                    <strong>楓荃有限公司</strong><br>
+                    Feng Chuan Co., Ltd.<br>
+                    <strong>負責人 : 廖秋月</strong><br>
+                    
+                   <strong> <abbr title="Phone">電話:</abbr></strong> (04)2479-0605
+                  </address>
+
+                  <address>
+                    <strong>楓荃有限公司信箱</strong><br>
+                    <a href="mailto:#">example@example.com</a>
+                  </address>
+          </div>
+</div>  
+</div>
+<!-- 聯絡我們結束 -->
+<div class="midblock"></div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
